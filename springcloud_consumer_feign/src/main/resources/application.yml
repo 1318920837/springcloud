@@ -1,0 +1,16 @@
+server:
+  port: 10002
+spring:
+  application:
+    name: consumer-feign
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka,http://localhost:8081/eureka
+
+
+    fetch-registry: true
+    register-with-eureka: true
+feign:
+  hystrix:
+    enabled: true

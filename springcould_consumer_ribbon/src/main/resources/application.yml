@@ -1,0 +1,20 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: consumer-ribbon
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka,http://localhost:8081/eureka
+
+
+    fetch-registry: true
+    register-with-eureka: true
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        enabled: true
+        requetVolumeThreshold: 2
+        sleepWindowInMilliseconds: 5000

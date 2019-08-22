@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_consumer_feign/springcloud_consumer_feign.iml" filepath="$PROJECT_DIR$/springcloud_consumer_feign/springcloud_consumer_feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_eureka/springcloud_eureka.iml" filepath="$PROJECT_DIR$/springcloud_eureka/springcloud_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_eureka2/springcloud_eureka2.iml" filepath="$PROJECT_DIR$/springcloud_eureka2/springcloud_eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_hystrix/springcloud_hystrix.iml" filepath="$PROJECT_DIR$/springcloud_hystrix/springcloud_hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud_private/springcloud_private.iml" filepath="$PROJECT_DIR$/springcloud_private/springcloud_private.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcould_consumer_ribbon/springcould_consumer_ribbon.iml" filepath="$PROJECT_DIR$/springcould_consumer_ribbon/springcould_consumer_ribbon.iml" />
+    </modules>
+  </component>
+</project>
